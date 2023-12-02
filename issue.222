@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!--
     <div class="featured">
         <h1 class="count">8</h1>
         <div class="text-area">
@@ -52,6 +53,6 @@
             </div>
         </li>
     </ul>
-    
+    -->
 </body>
 </html>

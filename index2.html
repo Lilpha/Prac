@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+const response = fetch("https://el.h2nbiz.or.kr/api/chrstnList/currentInfo",{
+    method:"GET",
+    mode : "no-cors",
+    headers :{
+        "Authorization" : "p5iErIE96o1o10wm3GMtn3yuQ6PQBl6lbE0h8CDIl0s4yHQP0d3378K9c8POZzTG",
+        "chrstn_mno" : "4311420121HS2020002"
+    }
+})
+console.log(response);
+    </script>
+</body>
+</html>
